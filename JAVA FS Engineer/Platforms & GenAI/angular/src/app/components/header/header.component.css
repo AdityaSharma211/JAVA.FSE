@@ -1,0 +1,10 @@
+.portal-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: #1b2733;
+}
+.brand { color: #fff; font-weight: bold; margin-right: auto; }
+.portal-nav a { color: #cfd8e3; text-decoration: none; }
+.portal-nav a.active { color: #4dabf7; font-weight: bold; }

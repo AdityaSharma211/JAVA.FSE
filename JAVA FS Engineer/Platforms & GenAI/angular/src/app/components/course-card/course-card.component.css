@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid #ddd;
+  border-left: 6px solid grey;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.5rem;
+  background: #fff;
+  transition: max-height 0.2s ease;
+}
+.card--full { background: #fff7e6; }
+.card--enrolled { box-shadow: 0 0 0 2px #4dabf7 inset; }
+.card.expanded { padding-bottom: 1.5rem; }
+.badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.8rem; color: #fff; }
+.badge--passed { background: green; }
+.badge--failed { background: crimson; }
+.badge--pending { background: grey; }
+.actions { margin-top: 0.75rem; display: flex; gap: 0.5rem; }

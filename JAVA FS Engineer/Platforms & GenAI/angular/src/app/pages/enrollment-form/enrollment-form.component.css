@@ -1,0 +1,5 @@
+.field { margin-bottom: 1rem; display: flex; flex-direction: column; max-width: 320px; }
+.field.checkbox { flex-direction: row; align-items: center; }
+.error { color: crimson; font-size: 0.85rem; }
+.success { color: green; margin-top: 1rem; }
+input, select { padding: 0.4rem; }

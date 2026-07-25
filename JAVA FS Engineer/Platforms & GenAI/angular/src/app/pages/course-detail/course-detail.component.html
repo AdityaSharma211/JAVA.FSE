@@ -1,0 +1,12 @@
+<h2>Course Detail</h2>
+<div *ngIf="course; else notFound">
+  <h3>{{ course.name }} ({{ course.code }})</h3>
+  <p>Credits: {{ course.credits }}</p>
+  <p>Status: {{ course.gradeStatus }}</p>
+
+  <h4>Enrolled Students</h4>
+  <ul>
+    <li *ngFor="let student of students$ | async">{{ student }}</li>
+  </ul>
+</div>
+<ng-template #notFound><p>Course not found.</p></ng-template>
